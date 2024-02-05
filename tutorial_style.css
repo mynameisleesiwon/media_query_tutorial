@@ -1,0 +1,41 @@
+/* 핸드폰 사이즈 */
+@media (max-width: 600px) {
+  .cellphone {
+    color: red;
+  }
+}
+
+/* 태블릿 사이즈 */
+@media (min-width: 600px) and (max-width: 992px) {
+  .tablet {
+    color: red;
+  }
+}
+
+/* 데스크탑 사이즈 */
+@media (min-width: 992px) {
+  .desktop {
+    color: red;
+  }
+}
+
+/* 가로 길이가 더 길 경우 */
+@media (orientation: landscape) {
+  .width {
+    color: blue;
+  }
+}
+
+/* 세로 길이가 더 길 경우 */
+@media (orientation: portrait) {
+  .height {
+    color: blue;
+  }
+}
+
+/* 화면을 프린트할 때 */
+@media print {
+  body {
+    color: purple;
+  }
+}
